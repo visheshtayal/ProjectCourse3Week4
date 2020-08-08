@@ -1,26 +1,16 @@
-# ProjectCourse3Week4
+# Getting and Cleaning Data : Course Project 
 
-#Goal of the Project
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-1.A tidy data set
+The data for this project can be downloaded through the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-2.A link to a Github repository with your script for performing the analysis
+Full description of the data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-3.A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+# Files
 
-4.Analysis R Script
+CodeBook.md. describes the variables, the data, and any work that are performed to clean up the data.
 
-The given datasets were combined and were cleaned up and made tidy. The dataset present in the repository is tidied.
+run_analysis.R contains all the coding for doing the course project, that includes downloading and unzipping the dataset that is used for this project.
 
-R analysis script is also present with proper explanation.
-
-STEPS:-
-
-#Loading packages and getting the data
-#Loading activity and features
-#loading train datasets
-#loading test datasets
-#combining train and test datasets
-#tidying data to more extent
-
-Thank You
+tidydataset.txt is a written out text file from run_analysis.R, which is the average features of each subject and each activity. 
+Please refer to CodeBook.md. for more explicit information.
